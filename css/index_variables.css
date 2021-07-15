@@ -1,0 +1,5 @@
+:root {
+  --main-bg-color: rgba(44, 44, 44, 0.9);
+  --sub-tx-color-0_2: rgba(0, 0, 0, 0.2);
+  --sub-tx-color-0_3: rgba(0, 0, 0, 0.5);
+}

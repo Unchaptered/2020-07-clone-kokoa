@@ -1,0 +1,28 @@
+.welcome-header {
+  /* desgin */
+  margin-top: 15%;
+  /* font */
+  text-align: center; /* 글자가 가운데 정렬됨*/
+  align-items: center; /* One Box 가 어디에 위치될 것인가 */
+  /* display*/
+  display: flex;
+  flex-direction: column;
+}
+.welcome-header__title {
+  /* desgin */
+  margin-bottom: 5%;
+  /* font */
+  color: var(--main-bg-color);
+  font-size: 30px;
+  font-weight: 1000;
+}
+.welcome-header__text {
+  /* design */
+  width: 50%;
+  margin-bottom: 30px;
+  /* font */
+  color: var(--main-bg-color);
+  font-size: 20px;
+  font-weight: 600;
+  /* display */
+}

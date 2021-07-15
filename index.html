@@ -11,37 +11,37 @@
         <link rel="stylesheet" href="css/styles.css"/>
     </head>
     <body>
-        <div class="status-bar"> <!-- 상단바 -->
-            <div class="status_bar__column">
-                <span>No Service</span>
-                <svg class="status_bar__icon" id="status_bar__icon__wifi" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <div class="topbar"> <!-- 상단바 -->
+            <div class="topbar__column">
+                <span class="topbar__column__lefttop">No Service</span>
+                <svg class="topbar__icon" id="topbar__icon__wifi" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0" />
                 </svg>
                 <!--To do! Wi-fi Icon-->
             </div>
-            <div class="status_bar__column">
-                <span>18:43</span>
+            <div class="topbar__column">
+                <span class="topbar__column__middletop">18:43</span>
             </div>
-            <div class="status_bar__column">
-                <span>100%</span>
-                <svg class="status_bar__icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <div class="topbar__column">
+                <span class="topbar__column__righttop">100%</span>
+                <svg class="topbar__icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2h-2a2 2 0 00-2 2" />
                 </svg>
-                <svg class="status_bar__icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg class="topbar__icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
             </div>
         </div>
 
         <header class="welcome-header"> <!-- 안내메세지 -->
-            <h1 class="welcome-header__title">Welcome to Kokoa talk(Clone)</h1>
-            <p class="welcome-header__text">If you have Kokoa Account, log in with your email or phone number</p>
+            <h1 class="welcome-header__title">Coral Talk</h1>
+            <p class="welcome-header__text">More Special Exprience</p>
         </header>
 
-        <form id="login-form"> <!-- 로그인 창 -->
-            <input type="text" placeholder="Email or phone number"/>
-            <input type="password" placeholder="password"/>
-            <input clas="hi" type="submit" value="Log In"/>
+        <form class="login-form"> <!-- 로그인 창 -->
+            <input class="login-form__text" type="text" placeholder="Email or phone number"/>
+            <input class="login-form__text" type="password" placeholder="password"/>
+            <input class="login-form__submit" type="submit" value="Log In"/>
             <a href="#">Find Kokoa Account or Password</a>
         </form>
     </body>

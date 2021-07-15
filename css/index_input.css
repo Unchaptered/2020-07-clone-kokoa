@@ -1,37 +1,75 @@
-#login-form {
+.login-form {
   /* design */
   width: 85%;
+  margin-top: 7%;
   margin-left: 7.5%;
   /* font */
   /* display */
   display: flex;
   flex-direction: column;
 }
-#login-form > input {
+.login-form__text {
   /* design */
+  max-width: 400px;
   margin-bottom: 1%;
+  padding: 11px 0px 5px 9px;
+  border: none;
+  border-bottom: 2px solid var(--color_input_light);
+  border-right: 2px solid var(--color_input_light);
+  border-radius: 5px;
+  /* font */
+  font-size: 12px;
+  /* display */
+  transition: border-color 0.5s ease-in-out;
+}
+/*2px solid var(--color_input_strong);*/
+.login-form__text:focus {
+  /* 마우스에 위치할때*/
+  /* design */
+  outline: none; /*outline 클릭시 박스나오는거*/
+  border-bottom: 2px solid var(--color_input_strong);
+  border-right: 2px solid var(--color_input_strong);
+  /* font */
+  /* display */
+}
+.login-form__submit {
+  /* design */
+  max-width: 411px;
+  margin-bottom: 5px;
   padding: 9px 0px 5px 0px;
   border: none;
-  border-bottom: 2px solid var(--sub-tx-color-0_2);
+  border-radius: 5px;
+  background-color: var(--color_submit_back_light);
   /* font */
-  font-size: 18px;
+  font-size: 12px;
+  color: var(--color_submit_font_light);
   /* display */
-  transition: border-color 0.3s ease-in-out;
+  transition: ease-in-out;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out;
 }
-
-#login-form > input::placeholder {
-  color: var(--sub-tx-color-0_2);
-  font-weight: bold;
+.login-form__submit:active {
+  /* design */
+  border: none;
+  background-color: var(--color_submit_back_strong);
+  /* font */
+  /* display */
 }
-#login-form > input:focus {
-  border-color: var(--sub-tx-color-0_3);
+.login-form > input::placeholder {
+  color: var(--color_input_inner_light);
+  transition: color 0.5s ease-in-out;
 }
-input:focus {
-  outline: none;
+.login-form > input:focus::placeholder {
+  color: var(--color_input_inner_strong);
+  opacity: color 0.3s ease-in-out;
 }
-
-#login-form > a {
+.login-form > a {
   /* design */
   /* font */
+  color: inherit;
+  opacity: 0.7;
+  font-size: 12px;
+  text-align: center;
+  text-decoration: underline;
   /* display */
 }

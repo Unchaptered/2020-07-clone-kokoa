@@ -1,0 +1,38 @@
+:root {
+  --status-bar: rgba(204, 149, 149, 0.9);
+
+  /* All interface 기본색상 (별도 지정 제외 */
+  --color-topbar_light: rgb(105, 153, 192);
+
+  /* All text  기본색상 (별도 지정 제외) */
+  --color-basic_white: rgba(180, 210, 226, 0.9);
+  --color-baisc_light: rgba(43, 92, 116, 0.9);
+  --color-basic_strong: rgba(50, 87, 102, 0.9);
+
+  /* Backgorund 기본색상*/
+  --color-background_strong: rgba(182, 208, 219, 0.9);
+  --color-background_light: rgba(198, 215, 223, 0.9);
+
+  /*#login-form 비focus/focus 상태의 색상값*/
+  --color_input_light: rgba(0, 53, 78, 0.3);
+  --color_input_strong: rgba(1, 49, 71, 0.5);
+  --color_input_inner_light: rgba(25, 113, 155, 0.5);
+  --color_input_inner_strong: rgba(9, 55, 77, 0.5);
+  --color_submit_font_light: rgb(239, 248, 255);
+  --color_submit_font_strong: lightcoral;
+  --color_submit_back_light: rgb(105, 153, 192);
+  --color_submit_back_middle: rgb(95, 147, 189);
+  --color_submit_back_strong: rgb(74, 118, 155);
+  --color_submit_border_light: rgb(0, 0, 0);
+  --color_submit_border_strong: lightcoral;
+
+  --sub-tx-color-: rgba(0, 0, 0, 0);
+  --sub-tx-color-: rgba(0, 0, 0, 0);
+  --sub-tx-color-: rgba(0, 0, 0, 0);
+  --sub-tx-color-: rgba(0, 0, 0, 0);
+  --sub-tx-color-: rgba(0, 0, 0, 0);
+  --sub-tx-color-: rgba(0, 0, 0, 0);
+  --sub-tx-color-: rgba(0, 0, 0, 0);
+  --sub-tx-color-: rgba(0, 0, 0, 0);
+  --sub-tx-color-: rgba(0, 0, 0, 0);
+}

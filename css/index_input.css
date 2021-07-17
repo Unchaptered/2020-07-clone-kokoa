@@ -1,8 +1,6 @@
 .login-form {
   /* design */
-  width: 85%;
-  margin-top: 7%;
-  margin-left: 7.5%;
+  margin: 7% 15% 0% 15%;
   /* font */
   /* display */
   display: flex;
@@ -10,7 +8,6 @@
 }
 .login-form__text {
   /* design */
-  max-width: 400px;
   margin-bottom: 1%;
   padding: 11px 0px 5px 9px;
   border: none;
@@ -34,7 +31,6 @@
 }
 .login-form__submit {
   /* design */
-  max-width: 411px;
   margin-bottom: 5px;
   padding: 9px 0px 5px 0px;
   border: none;

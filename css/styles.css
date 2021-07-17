@@ -8,6 +8,7 @@
 @import "index_topbar.css";
 @import "index_header.css";
 @import "index_input.css";
+@import "index_account.css";
 @import "background.css";
 
 body {
@@ -16,8 +17,15 @@ body {
     /* font */
     font-family: "Open Sans", sans-serif";
 }
-div{
-    background-color: var(--color-background_strong);
+footer{
+    /* design */
+    /* font */
+    color:teal;
+    font-size: 12px;
+    text-decoration:none;
+    text-align:center;
+    /* display */
+    justify-content: end;
 }
 .tip{
 --color_input_light: rgba(0, 53, 78, 0.3);

@@ -38,11 +38,24 @@
             <p class="welcome-header__text">More Special Exprience</p>
         </header>
 
-        <form class="login-form"> <!-- 로그인 창 -->
-            <input class="login-form__text" type="text" placeholder="Email or phone number"/>
-            <input class="login-form__text" type="password" placeholder="password"/>
+        <form action="friends.html" method="post"class="login-form"> <!-- 로그인 창 -->
+            <input class="login-form__text" type="text" required placeholder="Email"/>
+            <input class="login-form__text" type="password" required placeholder="password"/>
             <input class="login-form__submit" type="submit" value="Log In"/>
-            <a href="#">Find Kokoa Account or Password</a>
         </form>
+        <div class="account">
+            <form action="account_find.html" method="post" class="account__form">
+                <input class="account__form__find" type="submit" value="Find Account or Password"/>
+            </form>
+            <form action="account_create.html" method="post" class="account__form">
+                <input class="account__form__create" type="submit" Create Account" value="Create Account"/>
+            </form>
+        </div>
+        <footer>
+            <strong> Created by Unchaptered</strong><br>
+            <address>
+                <a href="https://github.com/Unchaptered"> Uncaphtered (Git)</a>
+            </address>
+        </footer>
     </body>
 </html>

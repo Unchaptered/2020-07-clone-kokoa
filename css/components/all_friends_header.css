@@ -1,0 +1,64 @@
+/* header>div>span>svg */
+
+/* header */
+.friends__header {
+  /* design */
+  padding: var(--horizontal-space__basic__padding);
+  /* font */
+  color: var(--horizontal-sapce__basic__color);
+  /* display */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* header>title */
+.friends__header__title {
+  /* design */
+  /* font */
+  color: var(--color-basic_strong);
+  font-size: 30px;
+  font-weight: 600;
+  /* display */
+}
+/* header>div */
+.friends__header__icondiv {
+  /* design */
+  /* font */
+  /* display */
+}
+.firends__header__span {
+  /* none */
+}
+.friends__header__icon {
+  /* design */
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  /* font */
+  color: inherit;
+  color: var(--color_navigationbar_icon_light);
+  /* display */
+  transition: color 0.3s ease-in-out;
+}
+/* header>div>span>svg */
+.friends__header__icon:hover {
+  /* design */
+  width: 30px;
+  height: 30px;
+  /* font */
+  color: var(--color_navigationbar_icon_middle);
+  /* display */
+}
+/* header>div>span>svg */
+.friends__header__icon:active {
+  /* design */
+  width: 30px;
+  height: 30px;
+  /* font */
+  color: var(--color_navigationbar_icon_strong);
+  /* display */
+}
+
+/* design */
+/* font */
+/* display */

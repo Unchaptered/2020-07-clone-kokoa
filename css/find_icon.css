@@ -1,0 +1,45 @@
+.find-icons {
+  /* design */
+  padding-left: 5%;
+  padding-right: 5%;
+  /* font */
+  text-align: center;
+  align-items: center;
+  /* display*/
+  display: flex;
+  justify-content: space-between;
+}
+.find-icons__icon {
+  /* design */
+  /* font */
+  /* display*/
+  align-items: center;
+}
+.find-icons__icon__size {
+  /* design */
+  width: 60px;
+  /* font */
+  /* display*/
+}
+.find-icons__icon__color {
+  /* design */
+  background-color: inherit;
+  /* font */
+  color: inherit;
+  color: var(--color_navigationbar_icon_light);
+  /* display*/
+  transition: color 0.3s ease-in-out;
+}
+.find-icons__icon__color:hover {
+  /* design */
+  /* font */
+  color: var(--color_navigationbar_icon_middle);
+  /* display*/
+}
+.find-icons__icon-div__size {
+  /* design */
+  width: 80px;
+  height: 80px;
+  /* font */
+  /* display*/
+}

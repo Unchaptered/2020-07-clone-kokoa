@@ -20,6 +20,7 @@
   transition: border-color 0.5s ease-in-out;
 }
 /*2px solid var(--color_input_strong);*/
+
 .login-form__text:focus {
   /* 마우스에 위치할때*/
   /* design */
@@ -42,7 +43,14 @@
   /* display */
   transition: ease-in-out;
   cursor: pointer;
-  transition: background-color 0.5s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+.login-form__submit:hover {
+  /* design */
+  border: none;
+  background-color: var(--color_submit_back_middle);
+  /* font */
+  /* display */
 }
 .login-form__submit:active {
   /* design */

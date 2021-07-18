@@ -1,11 +1,16 @@
 .topbar {
   /* design */
+  position: fixed;
+  top: 0px;
+  width: 100%;
+
   padding: 5px 3px;
   /* font */
   color: var(--color-basic_white);
   background-color: var(--color-topbar_light);
   /* display */
   display: flex;
+  align-items: center;
   justify-content: center;
 }
 .topbar__column__lefttop {

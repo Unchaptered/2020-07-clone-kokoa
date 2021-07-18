@@ -1,4 +1,18 @@
 :root {
+  /* user-component 가로선 */
+  --horizontal-sapce__basic__color: red;
+  --horizontal-space__basic__padding: 40px 17px 40px 17px;
+
+  /* border */
+  --border-outline-1_0px: 1px solid var(--color-background_strong);
+  --border-outline-1_5px: 1.5px solid var(--color-background_strong);
+  --border-outline-2_0px: 2px solid var(--color-background_strong);
+  --border-outline-2_5px: 2.5px solid var(--color-background_strong);
+  --border-outline-1_0px_dashed: 1px dashed var(--color-background_strong);
+  --border-outline-1_5px_dashed: 1.5px dashed var(--color-background_strong);
+  --border-outline-2_0px_dashed: 2px dashed var(--color-background_strong);
+  --border-outline-2_5px_dashed: 2.5px dashed var(--color-background_strong);
+
   --status-bar: rgba(204, 149, 149, 0.9);
 
   /* All interface 기본색상 (별도 지정 제외 */
@@ -8,10 +22,13 @@
   --color-basic_white: rgba(180, 210, 226, 0.9);
   --color-baisc_light: rgba(43, 92, 116, 0.9);
   --color-basic_strong: rgba(50, 87, 102, 0.9);
+  --color-basic_strong_most: rgba(35, 70, 83, 0.9);
 
   /* Backgorund 기본색상*/
-  --color-background_strong: rgba(182, 208, 219, 0.9);
+  --color-background_light_most: rgba(232, 248, 255, 0.9);
+  --color-background_light_more: rgba(217, 234, 241, 0.9);
   --color-background_light: rgba(198, 215, 223, 0.9);
+  --color-background_strong: rgba(182, 208, 219, 0.9);
 
   /*#login-form 비focus/focus 상태의 색상값*/
   --color_input_light: rgba(0, 53, 78, 0.3);
@@ -25,6 +42,16 @@
   --color_submit_back_strong: rgb(74, 118, 155);
   --color_submit_border_light: rgb(0, 0, 0);
   --color_submit_border_strong: lightcoral;
+
+  /* navigationbar color */
+  --color_border_top_light: rgba(0, 0, 0, 0.1);
+  --color_border_top_strong: rgba(14, 6, 6, 0.2);
+  --color_navigationbar_icon_light: rgb(111, 163, 206);
+  --color_navigationbar_icon_middle: rgb(6, 28, 46);
+  --color_navigationbar_icon_strong: rgb(64, 109, 146);
+  --color_navigationbar_icon_notification_light: rgb(255, 146, 126);
+  --color_navigationbar_icon_notification_middle: rgb(255, 99, 71);
+  --color_navigationbar_icon_notification_strong: rgb(199, 61, 37);
 
   --sub-tx-color-: rgba(0, 0, 0, 0);
   --sub-tx-color-: rgba(0, 0, 0, 0);

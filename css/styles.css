@@ -3,13 +3,25 @@
 /* font */
 /* display */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
 @import "reset.css";
+@import "background.css";
 @import "var_color.css";
-@import "index_topbar.css";
+
+/*components*/
+@import "components/all_topbar.css";
+@import "components/all_navigationbar.css";
+@import "components/all_friends_header.css";
+@import "components/all_user-component.css";
+
+/* Screens */
 @import "index_header.css";
 @import "index_input.css";
 @import "index_account.css";
-@import "background.css";
+@import "friends_friends.css";
+@import "find_icon.css";
+@import "friedns_open-chat.css";
+@import "find_reccomended-friends.css";
 
 body {
     /* design */
@@ -17,14 +29,41 @@ body {
     /* font */
     font-family: "Open Sans", sans-serif";
 }
-footer{
+.display-block{
+    display:block;
+}
+.more-margin__top{
+    margin-top:30px;
+}
+.position-relative{
+    /* none */
+}
+.position-absolute{
+    /* none */
+}
+.empty-box{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.align-items__right{
+    align-items: right;
+    justify-content: right;
+}
+.basic-settings-margin{
+    margin:20px;
+}
+.bottom{
     /* design */
+    margin-bottom: 15px;
     /* font */
     color:teal;
     font-size: 12px;
     text-decoration:none;
     text-align:center;
     /* display */
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
     justify-content: end;
 }
 .tip{
@@ -34,8 +73,8 @@ footer{
 --color_input_inner_strong: rgba(9, 55, 77, 0.5);
 --color_submit_font_light: rgb(239, 248, 255);
 --color_submit_font_strong: lightcoral;
---color_submit_back_light: rgb(111, 163, 206);
---color_submit_back_middle: rgb(95, 147, 189);
+--color_submit_back_light: rgb(152, 193, 226);
+--color_submit_back_middle: rgb(61, 113, 156);
 --color_submit_back_strong: rgb(74, 118, 155);
 --color_submit_border_light: rgb(0, 0, 0);
 --color_submit_border_strong: lightcoral;

@@ -11,7 +11,7 @@
 @import "No-mobile/No-mobile.css";
 @import "No-mobile/No-landscape.css";
 /*animation*/
-@import "animation/background-animation__001_Gradient.css.css";
+@import "animation/background-animation__001_Gradient.css";
 /*components*/
 @import "components/all_topbar.css";
 @import "components/all_navigationbar.css";
@@ -19,13 +19,13 @@
 @import "components/all_user-component.css";
 @import "components/all_icon-raw.css";
 @import "components/all_friends_header.css";
-@import "components/all_splash-screen.css";
+@import "components/all-splash-screen.css";
 /* Screens */
 @import "index_header.css";
 @import "index_input.css";
 @import "index_account.css";
 @import "friends_friends.css";
-@import "find_icon.css";
+@import "all_icon-raw.css";
 @import "friedns_open-chat.css";
 @import "find_reccomended-friends.css";
 @import "more_main.css";

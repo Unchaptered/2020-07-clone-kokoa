@@ -5,12 +5,13 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        
         <!--you-->
-        <title>Welcome to Kokoa talk(Clone)</title>
+        <title>Welcome to Sky talk</title>
         <link rel="stylesheet" href="css/styles.css"/>
     </head>
-    <body>
+    <body class="animation__appearance">
+        <!-- 상단 고정바 -->
         <div class="topbar"> <!-- 상단바 -->
             <div class="topbar__column">
                 <span class="topbar__column__lefttop">No Service</span>
@@ -32,40 +33,28 @@
                 </svg>
             </div>
         </div>
-/* nav>ul>li*4>a>svg */
-        <nav class="navigationbar">
-            <ul class="navigationbar__list">
-                <li class="navigationbar__link">
-                    <a class="navigationbar__button" href="#">
-                        <svg class="navigationbar__icon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                        <path fill-rule="evenodd" d="M18 5v8a2 2 0 01-2 2h-5l-5 4v-4H4a2 2 0 01-2-2V5a2 2 0 012-2h12a2 2 0 012 2zM7 8H5v2h2V8zm2 0h2v2H9V8zm6 0h-2v2h2V8z" clip-rule="evenodd" />
-                        </svg>
-                    </a>
-                    <span class="navigationbar__icon__notitifcation__count">1</span>
-                </li>
-                <li class="navigationbar__link">
-                    <a class="navigationbar__button" href="#">
-                        <svg class="navigationbar__icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                        </svg>
-                    </a>
-                </li>
-                <li class="navigationbar__link">
-                    <a class="navigationbar__button" href="friends.html">
-                        <svg class="navigationbar__icon"xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                        <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd" />
-                        </svg>
-                    </a>
-                </li>
-                <li class="navigationbar__link">
-                    <a class="navigationbar__button" href="#">
-                        <svg class="navigationbar__icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
-                        </svg>
-                    </a>
-                    <span class="navigationbar__icon__notitifcation__point">.</span>
-                </li>
-            </ul>
-        </nav>
+
+        <!-- 사이트 로고 -->
+        <header class="welcome-header"> <!-- 안내메세지 -->
+            <h1 class="welcome-header__title">Create Account</h1>
+                <p class="welcome-header__text">If you want to back, Click Down</p>
+        </header>
+
+
+
+        <!-- 주석 -->
+        <footer class="bottom">
+            <strong> Created by Unchaptered</strong><br>
+            <address>
+                <a href="https://github.com/Unchaptered"> Uncaphtered (Git)</a>
+            </address>
+        </footer>
+
+        <div id="no-mobile">
+            <span>Your Screen is so Big</span>
+        </div>
+        <div id="no-landscape">
+            <span>We don't support horizontal screen </span>
+        </div>
     </body>
 </html>

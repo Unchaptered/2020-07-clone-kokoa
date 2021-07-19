@@ -140,3 +140,47 @@
 .open-chat__post__side__photo:hover {
   opacity: 0.99;
 }
+.oepn-chat__post__side__haert-count {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.open-chat__post__side__heart-count__inner-box {
+  /* design */
+  position: absolute;
+  width: auto;
+  top: -31px;
+  right: 6px;
+  padding: 1px;
+  border: var(--border-outline-1_5px);
+  border-radius: 15px;
+  background-color: var(--color-oepn-chat_like-button-light);
+  /* font */
+  color: var(--color-basic_strong);
+  /* display */
+  display: flex;
+  align-items: center;
+  transition: color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+.open-chat__post__side__heart-count__inner-box:hover {
+  /* design */
+  background-color: var(--color-oepn-chat_like-button-strong);
+  /* font */
+  color: var(--color-oepn-chat_like-button-light);
+  /* display */
+}
+.oepn-chat__post__side__haert-count__heart {
+  /* design */
+  width: 20px;
+  /* font */
+  /* display */
+  display: block;
+}
+.oepn-chat__post__side__haert-count__number {
+  /* design */
+  /* font*/
+  font-size: 20px;
+  /* display*/
+  display: block;
+}

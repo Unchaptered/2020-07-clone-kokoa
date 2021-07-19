@@ -1,4 +1,4 @@
-.find-icons {
+.icon_raw {
   /* design */
   padding-left: 5%;
   padding-right: 5%;
@@ -9,19 +9,19 @@
   display: flex;
   justify-content: space-between;
 }
-.find-icons__icon {
+.icon_raw__icon {
   /* design */
   /* font */
   /* display*/
   align-items: center;
 }
-.find-icons__icon__size {
+.icon_raw__icon__size {
   /* design */
   width: 60px;
   /* font */
   /* display*/
 }
-.find-icons__icon__color {
+.icon_raw__icon__color {
   /* design */
   background-color: inherit;
   /* font */
@@ -30,13 +30,13 @@
   /* display*/
   transition: color 0.3s ease-in-out;
 }
-.find-icons__icon__color:hover {
+.icon_raw__icon__color:hover {
   /* design */
   /* font */
   color: var(--color_navigationbar_icon_middle);
   /* display*/
 }
-.find-icons__icon-div__size {
+.icon_raw__icon-div__size {
   /* design */
   width: 80px;
   height: 80px;

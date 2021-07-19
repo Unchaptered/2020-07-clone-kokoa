@@ -11,6 +11,10 @@
   /* font */
   /* display */
   transition: border-top background-color 0.3s ease-in-out;
+  /* animation */
+  transform: translateY(80px);
+  opacity: 0;
+  animation: navigationbuttonAnimation 0.7s ease-in-out forwards;
 }
 .navigationbar:hover {
   /* desisgn */
@@ -26,13 +30,6 @@
   /* display */
   display: flex;
   justify-content: space-between;
-}
-/* nav>ul>li*4>a>svg  this is li */
-.navigationbar__link {
-  /* desisgn */
-  position: relative;
-  /* font */
-  /* display */
 }
 /* nav>ul>li*4>a>svg  this is a */
 .navigationbar__icon {
@@ -63,6 +60,22 @@
   color: var(--color_navigationbar_icon_strong);
   /* display */
 }
+/* nav>ul>li*4>a>svg  this is li */
+.navigationbar__link {
+  position: relative;
+  transform: translateY(80px);
+  opacity: 0;
+  animation: navigationbuttonAnimation 0.7s ease-in-out forwards;
+}
+@keyframes navigationbuttonAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
 /* nav>ul>li*4>a>svg  this is svg(icon) */
 /* nav>ul>li*4>span  this is span(notification) */
 .navigationbar__icon__notitifcation__count {
@@ -84,6 +97,24 @@
   align-items: center;
   justify-content: center;
   transition: background-color 0.3s ease-in-out;
+  animation: notificationAnimation 3s ease-in-out infinite;
+}
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  25% {
+    transform: translateY(-1px);
+  }
+  50% {
+    transform: none;
+  }
+  75% {
+    transform: translateY(1px);
+  }
+  100% {
+    transform: none;
+  }
 }
 .navigationbar__icon__notitifcation__count:hover {
   /* desisgn */
@@ -104,6 +135,7 @@
   /* display */
   display: flex;
   transition: color 0.3s ease-in-out;
+  animation: notificationAnimation 3s ease-in-out infinite;
 }
 .navigationbar__icon__notitifcation__point:hover {
   /* desisgn */

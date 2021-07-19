@@ -16,13 +16,19 @@
   --status-bar: rgba(204, 149, 149, 0.9);
 
   /* All interface 기본색상 (별도 지정 제외 */
+  --color-oepn-chat_like-button-light: rgb(217, 238, 243);
+  --color-oepn-chat_like-button-strong: rgb(92, 129, 138);
   --color-topbar_light: rgb(105, 153, 192);
 
   /* All text  기본색상 (별도 지정 제외) */
+  --color-basic_white_most: rgba(238, 248, 253, 0.9);
   --color-basic_white: rgba(180, 210, 226, 0.9);
   --color-baisc_light: rgba(43, 92, 116, 0.9);
   --color-basic_strong: rgba(50, 87, 102, 0.9);
   --color-basic_strong_most: rgba(35, 70, 83, 0.9);
+  --color-baisc_light_most_opacity_1: rgba(43, 92, 116, 1);
+  --color-basic_strong_most_opacity_1: rgba(50, 87, 102, 1);
+  --color-basic_strong_most_opacity_1: rgba(35, 70, 83, 1);
 
   /* Backgorund 기본색상*/
   --color-background_light_most: rgba(232, 248, 255, 0.9);

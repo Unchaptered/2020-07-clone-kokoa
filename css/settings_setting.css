@@ -1,0 +1,38 @@
+.settings__setting {
+  padding: 10px 0;
+  border-bottom: var(--main-border);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+/* basic icon settings */
+.settings__setting__icon {
+  width: 22px;
+  height: 22px;
+  margin-right: 5px;
+  color: inherit;
+  transition: color 0.3 ease-in-out;
+}
+.settings__setting__mini-box {
+  margin: 0px;
+  padding: 0px;
+  justify-content: center;
+  align-items: center;
+}
+.settings__setting-position {
+  justify-content: space-between;
+}
+.settings__setting__icon {
+}
+.settings-border {
+  border-bottom: var(--border-outline-2_5px);
+}
+.settings__transition {
+  border-radius: 15px;
+  transition: background-color 0.3s ease-in-out;
+}
+.settings__transition:hover {
+  border-radius: 15px;
+  color: black;
+  background-color: white;
+}

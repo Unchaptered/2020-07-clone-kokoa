@@ -7,13 +7,19 @@
 @import "reset.css";
 @import "background.css";
 @import "var_color.css";
-
+/*screen*/
+@import "No-mobile/No-mobile.css";
+@import "No-mobile/No-landscape.css";
+/*animation*/
+@import "animation/background-animation__001_Gradient.css.css";
 /*components*/
 @import "components/all_topbar.css";
 @import "components/all_navigationbar.css";
 @import "components/all_friends_header.css";
 @import "components/all_user-component.css";
-
+@import "components/all_icon-raw.css";
+@import "components/all_friends_header.css";
+@import "components/all_splash-screen.css";
 /* Screens */
 @import "index_header.css";
 @import "index_input.css";
@@ -22,12 +28,27 @@
 @import "find_icon.css";
 @import "friedns_open-chat.css";
 @import "find_reccomended-friends.css";
+@import "more_main.css";
+@import "settings_setting.css";
+@import "chat_room.css";
+@import "chat_room-message.css";
+@import "chat_room_reply.css";
+@import "account_find-main.css";
 
 body {
     /* design */
     background-color: var(--color-background_light);
     /* font */
     font-family: "Open Sans", sans-serif";
+}
+.re-sizing{
+    font-size: 20px;
+}
+.underline-inherit{
+    text-decoration: inherit;
+}
+.main-screen{
+    padding: 0px 5% 0 5%;
 }
 .display-block{
     display:block;

@@ -1,0 +1,23 @@
+#no-landscape {
+  /* design */
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  width: 10vw;
+  height: 100vh;
+  background-color: var(--color-baisc_light_most_opacity_1);
+  /* font */
+  color: white;
+  font-size: 20px;
+  /* display */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* un-active */
+  visibility: hidden;
+}
+@media screen and (orientation: landscape) {
+  span {
+    display: fixed;
+  }
+}

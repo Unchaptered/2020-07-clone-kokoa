@@ -1,0 +1,34 @@
+@@ -1,33 +0,0 @@
+.reccomended-friends {
+  margin: 0 20px 0 20px;
+  border-top: 2px solid var(--color-background_strong);
+  border-bottom: 2px solid var(--color-background_strong);
+}
+.recommended-friends__title-paddingon {
+  height: 80px;
+  padding: 13px;
+}
+.recommended-friends__title-paddingnone {
+  height: 80px;
+}
+.recommended-friends__title__color {
+  color: var(--color-baisc_light);
+  opacity: 0.5;
+  font-size: 20px;
+}
+.reccomended-friends__text__align-none {
+  text-align: none;
+}
+.reccomended-friends__text__align-center {
+  text-align: center;
+}
+.reccomended-friends-background-action {
+  margin: 3px;
+  border-radius: 20px;
+  background-color: var(--color-background_light_more);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.reccomended-friends-background-action:hover {
+  background-color: var(--color-background_light_most);
+}

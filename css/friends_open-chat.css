@@ -1,0 +1,187 @@
+@@ -1,186 +0,0 @@
+.open-chat__header {
+  display: flex;
+  margin-top: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+.open-chat__title__color {
+  color: var(--color-baisc_light);
+  opacity: 0.7;
+  font-size: 15px;
+}
+.open-chat__title__color__light-thin {
+  color: var(--color-baisc_light);
+  opacity: 0.7;
+  font-size: 15px;
+  font-weight: inherit;
+}
+.open-chat__title__color__light-fat {
+  color: var(--color-baisc_light);
+  opacity: 0.7;
+  font-size: 15px;
+  font-weight: 600;
+}
+.open-chat__title__color__strong-thin {
+  color: var(--color-basic_strong);
+  font-size: 15px;
+  opacity: inherit;
+  font-weight: inherit;
+}
+.open-chat__title__color__strong-fat {
+  color: var(--color-basic_strong);
+  opacity: inherit;
+  font-size: 15px;
+  font-weight: 600;
+}
+.open-chat__title__color__notice {
+  color: red;
+}
+.open-chat__title__resize {
+  font-size: 20px;
+}
+.open-chat__title__opacity {
+  opacity: inherit;
+  opacity: 0.1;
+}
+.open-chat__header {
+  padding: 0 20px 0 20px;
+}
+.open-chat__title__icon {
+  /* design */
+  width: 10px;
+  height: 10px;
+  /* font */
+  color: inherit;
+  color: var(--color_navigationbar_icon_light);
+  /* display */
+  transition: color 0.3s ease-in-out;
+}
+.open-chat__title__icon:hover {
+  /* design */
+  width: 10px;
+  height: 10px;
+  /* font */
+  color: var(--color_navigationbar_icon_strong);
+  opacity: inherit;
+  /* display */
+}
+
+/* open-chat */
+/* 하나의 outline 안에 여러 개의 inline */
+
+.open-chat__post__outline {
+  padding: 0 20px 0 20px;
+}
+.open-chat__post__inline {
+  /* design */
+  margin: 5px 0;
+  padding: 10px;
+  border: var(--border-outline-1_5px_dashed);
+  border-radius: 15px;
+  background-color: var(--color-background_light_more);
+  /* display */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background-color 0.3s ease-in-out;
+}
+.open-chat__post__inline:hover {
+  background-color: var(--color-background_light_most);
+}
+.open-chat__post__room {
+}
+.open-chat__post__room__title {
+  margin-bottom: 10px;
+}
+.open-chat__post__room__tag {
+  margin-bottom: 10px;
+}
+.open-chat__post__room__data {
+  /* design */
+  position: relative;
+  width: 200px;
+  padding: 3px;
+  border: var(--border-outline-2_5px_dashed);
+  border-radius: 10px;
+  /* display */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.open-chat__post__room__data__master {
+  width: 30px;
+  border-radius: 15px;
+  background-color: inherit;
+}
+.open-chat__post__room__data__memeber {
+  position: absolute;
+  width: 50px;
+  left: 40px;
+}
+.open-chat__post__room__data__vertical {
+  border-left: var(--border-outline-2_5px);
+}
+.open-chat__post__room__data__active {
+  position: absolute;
+  width: 50px;
+  padding-left: 10px;
+  left: 140px;
+}
+.open-chat__post__side {
+}
+.open-chat__post__side__photo {
+  width: 100px;
+  display: block;
+  border: var(--border-outline-2_5px);
+  border-radius: 15px;
+  opacity: 0.7;
+  transition: opacity 0.3 ease-in-out;
+}
+.open-chat__post__side__photo:hover {
+  opacity: 0.99;
+}
+.oepn-chat__post__side__haert-count {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.open-chat__post__side__heart-count__inner-box {
+  /* design */
+  position: absolute;
+  width: auto;
+  top: -31px;
+  right: 6px;
+  padding: 1px;
+  border: var(--border-outline-1_5px);
+  border-radius: 15px;
+  background-color: var(--color-oepn-chat_like-button-light);
+  /* font */
+  color: var(--color-basic_strong);
+  /* display */
+  display: flex;
+  align-items: center;
+  transition: color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+.open-chat__post__side__heart-count__inner-box:hover {
+  /* design */
+  background-color: var(--color-oepn-chat_like-button-strong);
+  /* font */
+  color: var(--color-oepn-chat_like-button-light);
+  /* display */
+}
+.oepn-chat__post__side__haert-count__heart {
+  /* design */
+  width: 20px;
+  /* font */
+  /* display */
+  display: block;
+}
+.oepn-chat__post__side__haert-count__number {
+  /* design */
+  /* font*/
+  font-size: 20px;
+  /* display*/
+  display: block;
+}

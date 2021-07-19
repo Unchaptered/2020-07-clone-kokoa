@@ -1,0 +1,198 @@
+@@ -1,197 +0,0 @@
+#splash-screen {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  background-color: var(--color-baisc_light_most_opacity_1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 64px;
+  animation: colorScreen 23.5s ease-in-out forwards;
+  animation: hideSplashScreen 0.5s ease-in-out forwards;
+  animation-delay: 23.5s;
+}
+#splash-screen > p {
+  position: fixed;
+  color: white;
+  font-size: 20px;
+  opacity: 0;
+}
+#splash-screen > svg {
+  position: relative;
+}
+#splash-screen > svg {
+  top: -30%;
+  width: 60px;
+  height: 60px;
+}
+#splash-text_1 {
+  animation: animation_splash-text_1 2.5s ease-in-out forwards;
+  animation-delay: 0.5s;
+}
+#splash-text_2 {
+  animation: animation_splash-text_2 2.5s ease-in-out forwards;
+  animation-delay: 3.5s;
+}
+#splash-text_3 {
+  animation: animation_splash-text_3 2.5s ease-in-out forwards;
+  animation-delay: 6.5s;
+}
+#splash-text_4 {
+  animation: animation_splash-text_3 2.5s ease-in-out forwards;
+  animation-delay: 9.5s;
+}
+#splash-text_5 {
+  animation: animation_splash-text_3 2.5s ease-in-out forwards;
+  animation-delay: 12.5s;
+}
+#splash-text_6 {
+  animation: animation_splash-text_3 2.5s ease-in-out forwards;
+  animation-delay: 15.5s;
+}
+#splash-text_7 {
+  animation: animation_splash-text_3 2.5s ease-in-out forwards;
+  animation-delay: 18.5s;
+}
+#splash-text_8 {
+  animation: animation_splash-text_3 2.5s ease-in-out forwards;
+  animation-delay: 21.5s;
+}
+
+/* animation sequence */
+/* basic Generation > 1 Generation Extinction > 2 Generation Extinction > 3 > 4 > 5 > 6 > end > basic Extinction*/
+@keyframes colorScreen {
+}
+
+@keyframes animation_splash-text_1 {
+  0% {
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@keyframes animation_splash-text_2 {
+  0% {
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@keyframes animation_splash-text_3 {
+  0% {
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@keyframes animation_splash-text_4 {
+  0% {
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@keyframes animation_splash-text_5 {
+  0% {
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@keyframes animation_splash-text_6 {
+  0% {
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@keyframes animation_splash-text_7 {
+  0% {
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@keyframes animation_splash-text_8 {
+  0% {
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+    /* visibility: hidden; 으로 해당 object 가 무시되고 뒤가 선택된다. */
+  }
+}

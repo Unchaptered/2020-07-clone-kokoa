@@ -1,0 +1,80 @@
+@@ -1,79 +0,0 @@
+.login-form {
+  /* design */
+  margin: 7% 15% 0% 15%;
+  /* font */
+  /* display */
+  display: flex;
+  flex-direction: column;
+}
+.login-form__text {
+  /* design */
+  margin-bottom: 1%;
+  padding: 11px 0px 5px 9px;
+  border: none;
+  border-bottom: 2px solid var(--color_input_light);
+  border-right: 2px solid var(--color_input_light);
+  border-radius: 5px;
+  /* font */
+  font-size: 12px;
+  /* display */
+  transition: border-color 0.5s ease-in-out;
+}
+/*2px solid var(--color_input_strong);*/
+
+.login-form__text:focus {
+  /* 마우스에 위치할때*/
+  /* design */
+  outline: none; /*outline 클릭시 박스나오는거*/
+  border-bottom: 2px solid var(--color_input_strong);
+  border-right: 2px solid var(--color_input_strong);
+  /* font */
+  /* display */
+}
+.login-form__submit {
+  /* design */
+  margin-bottom: 5px;
+  padding: 9px 0px 5px 0px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--color_submit_back_light);
+  /* font */
+  font-size: 12px;
+  color: var(--color_submit_font_light);
+  /* display */
+  transition: ease-in-out;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+.login-form__submit:hover {
+  /* design */
+  border: none;
+  background-color: var(--color_submit_back_middle);
+  /* font */
+  /* display */
+}
+.login-form__submit:active {
+  /* design */
+  border: none;
+  background-color: var(--color_submit_back_strong);
+  /* font */
+  /* display */
+}
+.login-form > input::placeholder {
+  color: var(--color_input_inner_light);
+  transition: color 0.5s ease-in-out;
+}
+.login-form > input:focus::placeholder {
+  color: var(--color_input_inner_strong);
+  opacity: color 0.3s ease-in-out;
+}
+.login-form > a {
+  /* design */
+  /* font */
+  color: inherit;
+  opacity: 0.7;
+  font-size: 12px;
+  text-align: center;
+  text-decoration: underline;
+  /* display */
+}

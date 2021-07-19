@@ -1,0 +1,31 @@
+@@ -1,30 +0,0 @@
+#chat-screen {
+  height: 1100vh;
+}
+.chat-screen-padding {
+  padding: 0 20px;
+}
+.header-fixed {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  box-sizing: border-box;
+}
+.chat__timestop {
+  /* design*/
+  margin: 90px 30% 20px 30%;
+  padding: 5px;
+  border-radius: 15px;
+  background-color: var(--color-background_strong);
+  /* font */
+  color: var(--color-baisc_light);
+  font-weight: 600;
+  /* display */
+  display: flex;
+  justify-content: center;
+  transition: color 0.3 ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+.chat__timestop-middle {
+  margin: 40px 30% 20px 30%;
+}

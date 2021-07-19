@@ -1,0 +1,73 @@
+@@ -1,72 +0,0 @@
+.topbar {
+  /* design */
+  position: fixed;
+  top: 0px;
+  width: 100%;
+
+  padding: 5px 3px;
+  /* font */
+  color: var(--color-basic_white);
+  background-color: var(--color-topbar_light);
+  /* display */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topbar__column__lefttop {
+  /* design */
+  /* font */
+  /* display */
+}
+.topbar__column__middletop {
+  /* design */
+  /* font */
+  /* display */
+}
+.topbar__column__righttop {
+  /* design */
+  /* font */
+  /* display */
+}
+/* elements */
+.topbar__icon {
+  /* design */
+  background-color: var(--color-topbar_light);
+  /* font */
+  /* display */
+  width: 20px;
+  height: 20px;
+}
+.topbar__column {
+  background-color: var(--color-topbar_light);
+  width: 33%;
+}
+.topbar__column:first-child span {
+  /* design */
+  margin-right: 2px;
+  /* font */
+  /* display */
+}
+.topbar__column:nth-child(2) {
+  /* design */
+  /* font */
+  /* display */
+  display: flex;
+  justify-content: center;
+}
+
+.topbar__column:last-child {
+  /* design */
+  /* font */
+  /* display */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.topbar__column .topbar__icon {
+  margin: 0px 3px;
+}
+#topbar__icon__wifi {
+  transform: translateY(3px);
+}
+/* modifier */

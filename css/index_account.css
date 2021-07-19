@@ -1,0 +1,37 @@
+@@ -1,36 +0,0 @@
+.account {
+  /* design */
+  /* font */
+  /* display */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.account__form > input {
+  /* design */
+  outline: none;
+  border: none;
+  background-color: var(--color-background_light);
+  /* font */
+  color: inherit;
+  opacity: 0.7;
+  font-size: 12px;
+  text-align: center;
+  text-decoration: underline;
+  /* display */
+  cursor: pointer;
+}
+.account__form__find {
+  /* design */
+  margin-top: 15px;
+
+  /* font */
+  /* display */
+}
+.account__form__create {
+  /* design */
+  margin-top: 2.5px;
+  margin-bottom: 30vh;
+  /* font */
+  /* display */
+}

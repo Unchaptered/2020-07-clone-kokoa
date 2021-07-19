@@ -1,0 +1,18 @@
+@@ -1,17 +0,0 @@
+.more-suggestions {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 50px;
+
+  border-top: var(--border-outline-2_5px);
+}
+.more-suggestions__title {
+  margin-top: 30px;
+  background-color: red;
+}
+.more-sizing {
+  height: 300px;
+}
+.more-sizing__mini {
+  height: 100px;
+}

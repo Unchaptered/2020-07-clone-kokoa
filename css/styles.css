@@ -11,7 +11,7 @@
 @import "No-mobile/No-mobile.css";
 @import "No-mobile/No-landscape.css";
 /*animation*/
-@import "animation/background-animation__001_Gradient.css";
+@import "background-animation__001_Gradient.css";
 /*components*/
 @import "components/all_topbar.css";
 @import "components/all_navigationbar.css";
@@ -24,6 +24,7 @@
 @import "index_header.css";
 @import "index_input.css";
 @import "index_account.css";
+@import "index_open-chat.css";
 @import "friends_friends.css";
 @import "all_icon-raw.css";
 @import "friedns_open-chat.css";
@@ -34,7 +35,6 @@
 @import "chat_room-message.css";
 @import "chat_room_reply.css";
 @import "account_find-main.css";
-
 body {
     /* design */
     background-color: var(--color-background_light);
